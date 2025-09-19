@@ -1,36 +1,26 @@
-## React
+# 📚 Library Management UI with Search, Add, and Remove Book Functionality
 
-This is a simple React application. This application serves as a basic template for a react applications.  
-This project is bootstrapped with [Vite](https://vitejs.dev/guide/).
+## 🎯 Objective
+Build an interactive library management interface using React that allows users to view a list of books and perform actions like searching, adding, and removing books.  
+This task strengthens your understanding of **state management**, **event handling**, and **dynamic rendering** in React.
 
-## How to run
+---
 
-1. Before running the application, make sure all dependencies are installed. To install dependencies, run following command in terminal:
-   ```sh
-   npm install
-   ```
+## 📌 Task Description
+- Display a list of books (each with a **title** and **author**).  
+- Add a **search box** to filter books by title or author as the user types.  
+- Provide an **input form** to add new books to the list.  
+- Include a **remove button** next to each book to delete it.  
+- All actions (searching, adding, removing) should update the UI dynamically without reloading the page.  
 
-2. Once dependencies are installed, run the following command to start the application:
-   ```sh
-   npm run dev
-   ```
+---
 
-3. Refresh the URL in simple browser to see the output. As shown below 
-   ![](https://static.onecompiler.com/images/posts/3zzkbysj7/studio-react-vite-reload.png)
+## 🛠️ Example Features
+- Search by book title or author  
+- Add a new book dynamically  
+- Remove a book instantly  
+- UI updates based on **React state**  
 
-
-## FAQs & Debugging
-
- ### 1. I do not see browser in my workspace
- Studio will automatically open the app in a new browser tab. If not, you can use the following steps to open the simple browser 
-
-1. From VS Code command pallette(`Ctrl/Cmd + Shift + P`), run **Studio Manager: SimpleBrowser Default URL** command. This will open the app in a new browser tab.
-
-2. Your app runs on hosted env which can be accessed using host id, port provided in file **.vsocde/.studio/studio-env.json**. Use values to create the URL as follows:
-   `https://<STUDIO_HOST_ID>-3000.ocws.app`
-
- ### 2. Getting `vite: not found` error
- This means node_modules are missing in your workspace, please refer the 'How to run' section and make sure you have followed the steps in sequence
-
- ### 3. Can I use create-react-app instead Vite?
- Yes, you can use create-react-app instead Vite, the default workspace is loaded with Vite setup, you can remove the Vite dependencies, add create-react-app dependencies and update the scripts to start using create-react-app.
+---
+## 🔗 Project Link
+https://srishti-react2.bytexl.live/
